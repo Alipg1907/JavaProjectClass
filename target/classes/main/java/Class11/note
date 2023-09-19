@@ -1,0 +1,37 @@
+Methods/Functions/Behaviours/Routines
+    Methods are are blocks of code that contains pre-written code that is executed.
+    When we call a methods
+
+ ----There are two types of methods:
+       1)Methods which do not return any data ( void type)
+       2)Methods which can return data like int double char etc.
+
+
+           ==========
+           datatype methodName (datatype nameOfParameter, dataType nameOfOtherParam){
+           this is where we write the logic
+           return the results if method type is not void
+
+           }
+
+        Syntax:
+        int add ( int num1,int num2){
+                   int result=num1+num2;
+                   return result;
+                   }
+          int=> return type of method
+          add=> nma eof the method
+          (int num1,int num2) => parameters
+          {   =>>>> Body of the method
+          int result = num1+num2
+
+
+    advantages of modular design/ programming
+    *Code is easier to read. ...
+    *Code is easier to test. ...
+    *Easily find things later. ...
+    *Reusability without bloat. ...
+    *Single source for faster fixes. ...
+    *Easier, lower risk updates. ...
+    *Easier refactoring. ...
+    *Easier to collaborate.

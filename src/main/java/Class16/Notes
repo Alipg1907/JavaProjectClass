@@ -1,0 +1,23 @@
+Constructors:
+    Constructors help us create the objects from classes in a more secure and neat way.
+    We can also put any piece of code that we want to execute when the
+    object of a class is created.
+Why we should use constructor?
+    1)They help use write more secure classes
+    2)Cleaner code
+    3)More control over the values that we can assign to the instance fields.
+Syntax:
+    1)Usually public access modifier.
+    2)Same name as class name
+    3)No return type not even void.
+    4)Parameter
+    5)Body of the constructor.
+Rules:
+
+
+
+
+Create Cat class define 6 fields create multiple construstor to give
+flexibility to the end user.
+PrintInf method as well to print all details
+of a cat.

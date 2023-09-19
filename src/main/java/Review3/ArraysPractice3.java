@@ -1,0 +1,10 @@
+package Review3;
+
+public class ArraysPractice3 {
+    public static void main(String[] args) {
+        int [] salaries={120000,150000,200000};
+        for (int i = 0; i < salaries.length ; i++) {
+            System.out.println(salaries[i]);
+        }
+    }
+}

@@ -1,0 +1,45 @@
+Inheritance:
+    Inheritance allows one clas to have all he properties and
+    methods from another class.
+    **Except private members and constructors.
+    We use extends keyword.
+Why should we learn about inheritance:
+    1)Faster development;
+    2)Saves memory
+Syntax:
+    Class Parent{
+
+   }
+    class Child extends Parents{
+
+    }
+    Rules:
+        1)Private members are not accessible in child classes.
+        2)Constructors are also no available for child classes directly.
+    Types of inheritance:
+        1)Single
+        2)Hierarchical
+        3)MultiLevel
+        4)Hybrid
+        5)Multiple (It is not supported by java)
+    Single Inheritance:
+        Only one parent and only one child ( Not very Common)
+    Hierarchical:
+        One parent multiple child.
+     MultiLevel:
+        Multilevel inheritance happens when a class C inherits fromB and B inherits from A.
+    Hybrid:
+   Hybrid is a mixture of hierarchical and multilevel.
+
+    Multiple
+    Multiple inheritance not allowed in java meaning a class cant inherent from
+    multiple class at the same time. they called 'DIAMOND PROBLEM'
+    What is Diamond problem in OOP?
+    "The ambiguity that arises when two classes B and C inherit from A,
+    and a further class D inherits from both
+    B and C, so that if there is a method in A that B and/or C has overridden,
+    and D does not override it, it is unclear which version of the method D should inherit."
+
+
+
+
